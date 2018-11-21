@@ -1,0 +1,22 @@
+<!-- <app-first></app-first> -->
+<!-- <app-jai></app-jai> -->
+<!-- <h1>One Way Binding</h1> -->
+<!-- <h1>Welcome to {{title}}<h1>
+
+<h1>Two Way Binding</h1>	
+<input type="text" [(ngModel)]="jai" (keyup)="inputchange(jai)">
+	{{jai}}
+
+<h1>Property Binding</h1>
+<button class="btn btn-danger" [disabled]="access">Property Binding</button>
+
+<h1>Event Binding</h1>
+<button class="btn btn-primary" (click)="enable()">Enable</button>
+<button class="btn btn-primary" (click)="disable()">Disable</button> -->
+<h1>App component</h1>
+<ul>
+	<li *ngFor="let getname of this.listArr">{{getname.name}}</li>
+</ul>
+
+<app-first></app-first>
+<!-- <app-custom-directive></app-custom-directive> -->

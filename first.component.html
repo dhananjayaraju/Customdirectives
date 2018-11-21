@@ -1,0 +1,71 @@
+<h1>first component</h1>
+<ul>
+	<li *ngFor="let getname of this.listArr">{{getname.city}}</li>
+</ul>
+
+<!-- <div class="row">
+	<div class="col-md-12">
+		<div class="col-md-2">
+			<input type="text" class="form-control" [(ngModel)]="math" placeholder="Math" (keyup)="mathInput(math)">
+		</div>
+		<div class="col-md-2">
+			<input type="text" class="form-control" [(ngModel)]="physics" placeholder="Physics">
+		</div>
+		<div class="col-md-2">
+			<input type="text" class="form-control" [(ngModel)]="chemistry" placeholder="Chemistry">
+		</div>
+		<div class="col-md-2">
+			<input type="text" class="form-control" [(ngModel)]="arts" placeholder="Arts">
+		</div>
+		<div class="col-md-2">
+			<input type="text" class="form-control" [(ngModel)]="english" placeholder="English">
+		</div>
+		<div class="col-md-2">
+			<button class="btn btn-primary" (click)="add()">Add</button>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>S.No</th>
+					<th>Math</th>
+					<th>Physics</th>
+					<th>Chemistry</th>
+					<th>Arts</th>
+					<th>English</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr *ngFor="let getValue of ListSubjectValue; let i=index">
+					<td>{{i+1}}</td>
+					<td>{{getValue.math}}</td>
+					<td>{{getValue.physics}}</td>
+					<td>{{getValue.chemistry}}</td>
+					<td>{{getValue.arts}}</td>
+					<td>{{getValue.english}}</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table class="table">
+			<thead>
+				<tr>
+					<th>S.No</th>
+					<th>Subject</th>
+					<th>Grade</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Math</td>
+					<td>{{mathGrade}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+ -->
